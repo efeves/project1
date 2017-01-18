@@ -19,7 +19,8 @@ body {
     clear: both;
 }
 .hex {
-    position: relative;
+    position: absolute;
+    top:200px;
     list-style-type: none;
     float: left;
     overflow: hidden;
