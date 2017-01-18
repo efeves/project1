@@ -5,6 +5,9 @@
 body {
     background: #e7e8e8;
 }
+h1.hero{
+    font-size: 54px;
+}
 #hexGrid {
     overflow: hidden;
     width: 90%;
