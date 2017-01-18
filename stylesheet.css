@@ -8,7 +8,7 @@ body {
 #hexGrid {
     overflow: hidden;
     width: 90%;
-    margin: 0 auto;
+    margin: 1cm 0 1cm 0;
     padding:0.866% 0;
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
@@ -19,8 +19,7 @@ body {
     clear: both;
 }
 .hex {
-    position: absolute;
-    top:200px;
+    position: relative;
     list-style-type: none;
     float: left;
     overflow: hidden;
