@@ -8,6 +8,7 @@ body {
 h1.hero{
     font-size: 54px;
     text-align: center;
+    padding: 15px;
 }
 #hexGrid {
     overflow: hidden;
