@@ -27,6 +27,17 @@ h1.hero{
     position: relative;
     list-style-type: none;
     float: left;
+    overflow: hidden;
+    visibility: hidden;
+    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+    -webkit-transform: rotate(-60deg) skewY(30deg) translatez(-1px);
+        -ms-transform: rotate(-60deg) skewY(30deg) translatez(-1px);
+            transform: rotate(-60deg) skewY(30deg) translatez(-1px);
+}
+.hex {
+    position: relative;
+    list-style-type: none;
+    float: left;
     border: 1px solid black;
     width: 70px;
     overflow: hidden;
