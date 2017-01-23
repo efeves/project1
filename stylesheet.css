@@ -34,7 +34,7 @@ h1.hero{
         -ms-transform: rotate(-60deg) skewY(30deg) translatez(-1px);
             transform: rotate(-60deg) skewY(30deg) translatez(-1px);
 }
-.hex {
+.hex1 {
     position: relative;
     list-style-type: none;
     float: left;
