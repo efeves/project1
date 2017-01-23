@@ -245,6 +245,10 @@ h1.hero{
   height: 66.40px;
   background-color: #64C7CC;
   margin: 33.20px 0;
+  border: 1px solid black;
+  width: 70px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .hexagon:before,
