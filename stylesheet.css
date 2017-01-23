@@ -239,3 +239,30 @@ h1.hero{
         font-size: 13px;
     }
 }
+.hexagon {
+  position: relative;
+  width: 115px; 
+  height: 66.40px;
+  background-color: #64C7CC;
+  margin: 33.20px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 57.5px solid transparent;
+  border-right: 57.5px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 33.20px solid #64C7CC;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 33.20px solid #64C7CC;
+}
