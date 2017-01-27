@@ -1,3 +1,4 @@
+/*I did not use a javascript file in this website, as my website asthetic has be created efficiently with the use of only css and HTML. I feel that my website is still interactive and clean looking, without the necessity of a javascript file.*/
 * {
     margin: 0;
     padding: 0;
@@ -280,3 +281,5 @@ h1.hero{
 	     url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
 	     url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 	}
+ /* The code above is used to import my own font to the website. This allows me to have a non-custom font on my website, making my website more unique */
+
