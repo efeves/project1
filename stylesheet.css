@@ -282,7 +282,7 @@ h1.hero{
 	     url('new-yorker.svg#svgFontName') format('svg'); /* Legacy iOS */
 	}
  /* The code above is used to import my own font to the website. This allows me to have a non-custom font on my website, making my website more unique */
-p{
+.lights{
 	padding-top: 50px;
 	padding-right: 30px;
 	padding-bottom: 50px;
