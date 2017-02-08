@@ -304,3 +304,8 @@ h1.hero{
 .code{
 	text-decoration: none;
 }
+.gif{
+	width: 450px;
+	height: 250px;
+	padding-left: 200px;
+}
