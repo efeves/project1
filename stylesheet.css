@@ -299,4 +299,5 @@ h1.hero{
 .led{
 	width: 450px;
 	height: 250px;
+	padding-left: 100px;
 }
